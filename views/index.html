@@ -3,6 +3,12 @@
 <head>
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
   <link rel="stylesheet" type="text/css" href="css/app.css"/>
+  <script type="text/javascript">
+    window.config = {
+      endpoint: '[[endpoint]]',
+      apiKey: '[[apiKey]]'
+    };
+  </script>
 </head>
 <body ng-controller="DirectoryController">
   <nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
@@ -46,6 +52,7 @@
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.min.js"></script>
+  <script src="bower_components/angular-base64/angular-base64.js"></script>
   <script src="bower_components/ngInfiniteScroll/build/ng-infinite-scroll.js"></script>
   <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
   <script src="js/app.js"></script>
