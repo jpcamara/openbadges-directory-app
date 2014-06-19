@@ -8,6 +8,7 @@
     "postinstall": "./node_modules/bower/bin/bower install"
   },
   "author": "",
+  "repository": "https://github.com/jpcamara/openbadges-directory-app",
   "license": "MPL 2.0",
   "dependencies": {
     "express": "~4.4.3",
